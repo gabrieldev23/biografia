@@ -1,0 +1,30 @@
+*{
+
+}
+body{
+ background-color: burlywood;
+}
+
+ .centered {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     min-height: 100vh;
+     text-align: left;
+ }
+ .content {
+     max-width: 750px;
+     padding: 20px;
+     border: 1px solid #ccc;
+     border-radius: 5px;
+     background-color: #f9f9f9;
+     text-align: left;
+ }
+ .content p {
+     margin: 0;
+     padding-left: 50px; /* Espaço para a imagem à esquerda */
+ }
+ .content img {
+     float: right;
+     margin-right: 20px; /* Espaço entre a imagem e o texto */
+ }
